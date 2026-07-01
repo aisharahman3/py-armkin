@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core>=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+authors = [{name = "Camila Rios"}]
+name = "armkin"
+dynamic = ["version"]
+description = "Planar 2-link arm forward/inverse kinematics, Jacobian and DH transforms."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "ISC"}
+
+[tool.flit.module]
+name = "armkin"
